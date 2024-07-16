@@ -49,6 +49,12 @@ export const players: { icon: string; name: string; scheme: string }[] = [
     scheme:
       "intent:$durl#Intent;package=com.mxtech.videoplayer.pro;S.title=$name;end",
   },
+  {
+    icon: "mpv-android",
+    name: "MPV ANDROID",
+    scheme:
+      "intent:$durl#Intent;package=is.xyz.mpv;S.title=$name;end",
+  },
 ]
 
 export const AutoHeightPlugin = (player: Artplayer) => {
