@@ -51,7 +51,7 @@ export const players: { icon: string; name: string; scheme: string }[] = [
   },
   {
     icon: "mpv-android",
-    name: "MPV ANDROID",
+    name: "Mpv Android",
     scheme:
       "intent:$durl#Intent;package=is.xyz.mpv;S.title=$name;end",
   },
